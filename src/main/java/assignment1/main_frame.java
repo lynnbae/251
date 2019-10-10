@@ -598,7 +598,212 @@ public class main_frame extends JFrame implements ActionListener {
 	}
 
 	public void mySearch() {
+		final JDialog findDialog = new JDialog(this, "Find/Replace", true);
+
+		Container con = findDialog.getContentPane();
+
+		con.setLayout(new FlowLayout(FlowLayout.LEFT));
+		JLabel searchContentLabel = new JLabel("Find(N) :");
+		JLabel replaceContentLabel = new JLabel("ReplaceWith(P)¡¡ :");
+		final JTextField findText = new JTextField(22);
+		final JTextField replaceText = new JTextField(22);
+		final JCheckBox matchcase = new JCheckBox("CaseSensitive");
+		ButtonGroup bGroup = new ButtonGroup();
+		final JRadioButton up = new JRadioButton("Up(U)");
+		final JRadioButton down = new JRadioButton("Down(D)");
+		down.setSelected(true);
+		bGroup.add(up);
+		bGroup.add(down);
+		JButton searchNext = new JButton("FindNext(F)");
+		JButton replace = new JButton("Replace(R)");
+		final JButton replaceAll = new JButton("ReplaceALL(A)");
+		searchNext.setPreferredSize(new Dimension(110, 22));
+		replace.setPreferredSize(new Dimension(110, 22));
+		replaceAll.setPreferredSize(new Dimension(110, 22));
+		// change button 
+		replace.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+
+				if (replaceText.getText().length() == 0
+						&& textArea.getSelectedText() != null)
+					textArea.replaceSelection("");
+				if (replaceText.getText().length() > 0
+						&& textArea.getSelectedText() != null)
+					textArea.replaceSelection(replaceText.getText());
+			}
+		});
+
+		// all change button
+		replaceAll.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				textArea.setCaretPosition(0); 
+				int a = 0, b = 0, replaceCount = 0;
+				if (findText.getText().length() == 0) {
+					JOptionPane.showMessageDialog(findDialog, "Please Input!",
+							"Alert", JOptionPane.WARNING_MESSAGE);
+					findText.requestFocus(true);
+					return;
+				}
+				while (a > -1) {
+
+					int FindStartPos = textArea.getCaretPosition();
+					String string1, string2, string3, string4, stringA, stringB;
+					string1 = textArea.getText();
+					string2 = string1.toLowerCase();
+					string3 = findText.getText();
+					string4 = string3.toLowerCase();
+
+					if (matchcase.isSelected()) {
+						stringA = string1;
+						stringB = string3;
+					} else {
+						stringA = string2;
+						stringB = string4;
+					}
+
+					if (up.isSelected()) {
+						if (textArea.getSelectedText() == null) {
+							a = stringA.lastIndexOf(stringB, FindStartPos - 1);
+						} else {
+							a = stringA.lastIndexOf(stringB, FindStartPos
+									- findText.getText().length() - 1);
+						}
+					} else if (down.isSelected()) {
+						if (textArea.getSelectedText() == null) {
+							a = stringA.indexOf(stringB, FindStartPos);
+						} else {
+							a = stringA.indexOf(stringB, FindStartPos
+									- findText.getText().length() + 1);
+						}
+
+					}
+
+					if (a > -1) {
+						if (up.isSelected()) {
+							textArea.setCaretPosition(a);
+							b = findText.getText().length();
+							textArea.select(a, a + b);
+						} else if (down.isSelected()) {
+							textArea.setCaretPosition(a);
+							b = findText.getText().length();
+							textArea.select(a, a + b);
+						}
+					} else {
+						if (replaceCount == 0) {
+							JOptionPane.showMessageDialog(findDialog,
+									"Cannot find!", "Notepad",
+									JOptionPane.INFORMATION_MESSAGE);
+						} else {
+							JOptionPane.showMessageDialog(findDialog,
+									"Successfully Replaced: " + replaceCount
+											+ "changed!", "Replace",
+									JOptionPane.INFORMATION_MESSAGE);
+						}
+					}
+					if (replaceText.getText().length() == 0
+							&& textArea.getSelectedText() != null) {
+						textArea.replaceSelection("");
+						replaceCount++;
+					}
+					if (replaceText.getText().length() > 0
+							&& textArea.getSelectedText() != null) {
+						textArea.replaceSelection(replaceText.getText());
+						replaceCount++;
+					}
+				}
+			}
+		}); 
+		searchNext.addActionListener(new ActionListener() {//add searchNext function
+
+			public void actionPerformed(ActionEvent e) {
+				int a = 0, b = 0;
+				int FindStartPos = textArea.getCaretPosition();
+				String contain, lower, search, search_lower, strA, strB;
+				contain = textArea.getText();
+				lower = contain.toLowerCase();
+				search = findText.getText();
+				search_lower = search.toLowerCase();
+				if (matchcase.isSelected()) {
+					strA = contain;
+					strB = search;
+				} else {
+					strA = lower;
+					strB = search_lower;
+				}
+				if (up.isSelected()) {
+					if (textArea.getSelectedText() == null) {
+						a = strA.lastIndexOf(strB, FindStartPos - 1);
+					} else {
+						a = strA.lastIndexOf(strB, FindStartPos
+								- findText.getText().length() - 1);
+					}
+				} else if (down.isSelected()) {
+					if (textArea.getSelectedText() == null) {
+						a = strA.indexOf(strB, FindStartPos);
+					} else {
+						a = strA.indexOf(strB, FindStartPos
+								- findText.getText().length() + 1);
+					}
+				}
+				if (a > -1) {
+					if (up.isSelected()) {
+						textArea.setCaretPosition(a);
+						b = findText.getText().length();
+						textArea.select(a, a + b);
+					} else if (down.isSelected()) {
+						textArea.setCaretPosition(a);
+						b = findText.getText().length();
+						textArea.select(a, a + b);
+					}
+				} else {
+					JOptionPane.showMessageDialog(null, "not find",
+							"Notepad", JOptionPane.INFORMATION_MESSAGE);
+				}
 
 			}
+		});
+		JButton cancel = new JButton("cancel");//add cancel function
+		cancel.setPreferredSize(new Dimension(111, 21));
+		cancel.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				findDialog.dispose();
+			}
+		});
+
+		JPanel bottomPanel = new JPanel();
+		JPanel centerPanel = new JPanel();
+		centerPanel.setSize(400, 400);
+		JPanel topPanel = new JPanel();
+
+		JPanel direction = new JPanel();
+		direction.setBorder(BorderFactory.createTitledBorder("Direction "));
+		direction.add(up);
+		direction.add(down);
+		direction.setPreferredSize(new Dimension(160, 50));
+		JPanel replacePanel = new JPanel();
+		replacePanel.setLayout(new GridLayout(2, 1));
+		replacePanel.add(replace);
+		replacePanel.add(replaceAll);
+
+		topPanel.add(searchContentLabel);
+		topPanel.add(findText);
+		topPanel.add(searchNext);
+		centerPanel.add(replaceContentLabel);
+		centerPanel.add(replaceText);
+		centerPanel.add(replacePanel);
+		bottomPanel.add(matchcase);
+		bottomPanel.add(direction);
+		bottomPanel.add(cancel);
+
+		con.add(topPanel);
+		con.add(centerPanel);
+		con.add(bottomPanel);
+
+		findDialog.setSize(450, 200);
+		findDialog.setResizable(false);
+		findDialog.setLocation(225, 270);
+		findDialog.setVisible(true);
+	}
+
 
 }
