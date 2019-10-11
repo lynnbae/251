@@ -27,9 +27,11 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.security.DigestException;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
@@ -57,14 +59,21 @@ import javax.swing.JToolBar;
 import javax.swing.KeyStroke;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.undo.UndoManager;
 
-import assignment1.time_and_date;
+import com.itextpdf.text.Document;
+import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.PageSize;
+import com.itextpdf.text.Paragraph;
+import com.itextpdf.text.pdf.PdfWriter;
+
+import helloworld1.time_and_date;
 
 //import textEditor.text_function;
 
 @SuppressWarnings({ "deprecation", "serial" })
-public class main_frame extends JFrame implements ActionListener {
+public class demo extends JFrame implements ActionListener {
 
 	private JPanel contentPane;
 	private JTextArea textArea;
@@ -115,7 +124,7 @@ public class main_frame extends JFrame implements ActionListener {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					main_frame frame = new main_frame();
+					demo frame = new demo();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -130,7 +139,7 @@ public class main_frame extends JFrame implements ActionListener {
 	int second = clock.get(Calendar.SECOND);
 
 	//to create the frame	
-	public main_frame() throws InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
+	public demo() throws InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (ClassNotFoundException e1) {
@@ -244,7 +253,7 @@ public class main_frame extends JFrame implements ActionListener {
 
 		tool = new JToolBar();
 		tool.setSize(textArea.getSize().width, 10);
-		timelabel = new JLabel("Time£º" + hour + ":" + minute + ":" + second + " ");
+		timelabel = new JLabel("Timeï¿½ï¿½" + hour + ":" + minute + ":" + second + " ");
 		tool.add(timelabel);
 
 		contentPane.add(tool, BorderLayout.NORTH);
@@ -275,38 +284,38 @@ public class main_frame extends JFrame implements ActionListener {
 			public void windowClosing(WindowEvent e) {
 				if (flag == 2 && currentPath == null) {
 					int result = JOptionPane.showConfirmDialog(
-							main_frame.this, "Save to NewFile?",
+							demo.this, "Save to NewFile?",
 							"Notepad", JOptionPane.YES_NO_CANCEL_OPTION,
 							JOptionPane.PLAIN_MESSAGE);
 					if (result == JOptionPane.OK_OPTION) {
-						main_frame.this.saveAs();
+						demo.this.saveAs();
 					} else if (result == JOptionPane.NO_OPTION) {
-						main_frame.this.dispose();
-						main_frame.this
+						demo.this.dispose();
+						demo.this
 								.setDefaultCloseOperation(EXIT_ON_CLOSE);
 					}
 				} else if (flag == 2 && currentPath != null) {
 					//under created file with a path			
 					int result = JOptionPane.showConfirmDialog(
-							main_frame.this, "Save to" + currentPath
+							demo.this, "Save to" + currentPath
 									+ "?", "Notepad",
 							JOptionPane.YES_NO_CANCEL_OPTION,
 							JOptionPane.PLAIN_MESSAGE);
 					if (result == JOptionPane.OK_OPTION) {
-						main_frame.this.save();
+						demo.this.save();
 					} else if (result == JOptionPane.NO_OPTION) {
-						main_frame.this.dispose();
-						main_frame.this
+						demo.this.dispose();
+						demo.this
 								.setDefaultCloseOperation(EXIT_ON_CLOSE);
 					}
 				} else {
 					int result = JOptionPane.showConfirmDialog(
-							main_frame.this, "Exit?", "Alert",
+							demo.this, "Exit?", "Alert",
 							JOptionPane.YES_NO_OPTION,
 							JOptionPane.PLAIN_MESSAGE);
 					if (result == JOptionPane.OK_OPTION) {
-						main_frame.this.dispose();
-						main_frame.this
+						demo.this.dispose();
+						demo.this
 								.setDefaultCloseOperation(EXIT_ON_CLOSE);
 					}
 				}
@@ -337,6 +346,13 @@ public class main_frame extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == itemOpen) { // open a file
 			openFile();
+		} else if (e.getSource() == itemChangeToPDF) { // save to pdf
+			try {
+				savePDf();
+			} catch (DocumentException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}	
 		} else if (e.getSource() == itemSave) { // save a file
 			save();
 		} else if (e.getSource() == itemNew) { // newly create a file
@@ -344,7 +360,7 @@ public class main_frame extends JFrame implements ActionListener {
 		} else if (e.getSource() == itemExit) { // exit
 			exit();
 		} else if (e.getSource() == itemPrint) { // print
-			// ´òÓ¡»ú
+			// ï¿½ï¿½Ó¡ï¿½ï¿½
 			Print();
 		} else if (e.getSource() == itemFind) { // search
 			mySearch();
@@ -365,7 +381,7 @@ public class main_frame extends JFrame implements ActionListener {
 
 		} else if (e.getSource() == itemSearchForHelp) {
 			JOptionPane.showMessageDialog(this,
-					"Yao Xinlu is the author", "Team member???", 1);
+					"Yao Xinlu"+"\n"+"Shen Jihan", "Information", 1);
 		} else if (e.getSource() == Cut_fun) { // cut function
 			cut();
 		} else if (e.getSource() == Copy_fun) { // copy function
@@ -378,35 +394,35 @@ public class main_frame extends JFrame implements ActionListener {
 	private void exit() {
 		if (flag == 2 && currentPath == null) {
 			int result = JOptionPane
-					.showConfirmDialog(main_frame.this,
+					.showConfirmDialog(demo.this,
 							"Save to NewFile?", "Notepad",
 							JOptionPane.YES_NO_CANCEL_OPTION,
 							JOptionPane.PLAIN_MESSAGE);
 			if (result == JOptionPane.OK_OPTION) {
-				main_frame.this.saveAs();
+				demo.this.saveAs();
 			} else if (result == JOptionPane.NO_OPTION) {
-				main_frame.this.dispose();
-				main_frame.this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+				demo.this.dispose();
+				demo.this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 			}
 		} else if (flag == 2 && currentPath != null) {
 			int result = JOptionPane
-					.showConfirmDialog(main_frame.this, "Save to"
+					.showConfirmDialog(demo.this, "Save to"
 							+ currentPath + "?", "Notepad",
 							JOptionPane.YES_NO_CANCEL_OPTION,
 							JOptionPane.PLAIN_MESSAGE);
 			if (result == JOptionPane.OK_OPTION) {
-				main_frame.this.save();
+				demo.this.save();
 			} else if (result == JOptionPane.NO_OPTION) {
-				main_frame.this.dispose();
-				main_frame.this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+				demo.this.dispose();
+				demo.this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 			}
 		} else {
-			int result = JOptionPane.showConfirmDialog(main_frame.this,
-					"Exit£¿", "Alert!", JOptionPane.YES_NO_OPTION,
+			int result = JOptionPane.showConfirmDialog(demo.this,
+					"Exitï¿½ï¿½", "Alert!", JOptionPane.YES_NO_OPTION,
 					JOptionPane.PLAIN_MESSAGE);
 			if (result == JOptionPane.OK_OPTION) {
-				main_frame.this.dispose();
-				main_frame.this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+				demo.this.dispose();
+				demo.this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 			}
 		}
 	}
@@ -421,7 +437,7 @@ public class main_frame extends JFrame implements ActionListener {
 			return;
 		} else if (flag == 2 && this.currentPath != null) {
 			int result = JOptionPane
-					.showConfirmDialog(main_frame.this, "Save to"
+					.showConfirmDialog(demo.this, "Save to"
 							+ this.currentPath + "?", "Notepad",
 							JOptionPane.YES_NO_CANCEL_OPTION,
 							JOptionPane.PLAIN_MESSAGE);
@@ -465,7 +481,22 @@ public class main_frame extends JFrame implements ActionListener {
 			}
 		}
 	}
-
+	private void savePDf() throws DocumentException {
+        JFileChooser pdfChoose = new JFileChooser();
+        pdfChoose.setFileFilter(new FileNameExtensionFilter("pdf",".pdf"));
+			pdfChoose.showDialog(this, "save as pdf");
+			File file = pdfChoose.getSelectedFile();
+			try {
+				Document doc = new Document(PageSize.A4,50,50,50,50);
+				PdfWriter.getInstance(doc, new FileOutputStream(file.getPath()+".pdf"));
+				doc.open();
+				doc.add(new Paragraph( textArea.getText()));
+				doc.close();
+			} catch (FileNotFoundException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+	}
 	private void save() {
 		if (this.currentPath == null) {
 			this.saveAs();
@@ -495,7 +526,7 @@ public class main_frame extends JFrame implements ActionListener {
 	// to open a file	
 	private void openFile() {
 		if (flag == 2 && this.currentPath == null) {
-			int result = JOptionPane.showConfirmDialog(main_frame.this,
+			int result = JOptionPane.showConfirmDialog(demo.this,
 							"Save to NewFile?", "Notepad",
 							JOptionPane.YES_NO_CANCEL_OPTION,
 							JOptionPane.PLAIN_MESSAGE);
@@ -504,7 +535,7 @@ public class main_frame extends JFrame implements ActionListener {
 			}
 			
 		} else if (flag == 2 && this.currentPath != null) {
-			int result = JOptionPane.showConfirmDialog(main_frame.this, "Save to "
+			int result = JOptionPane.showConfirmDialog(demo.this, "Save to "
 							+ this.currentPath + "?", "Notepad",
 							JOptionPane.YES_NO_CANCEL_OPTION,
 							JOptionPane.PLAIN_MESSAGE);
@@ -604,7 +635,7 @@ public class main_frame extends JFrame implements ActionListener {
 
 		con.setLayout(new FlowLayout(FlowLayout.LEFT));
 		JLabel searchContentLabel = new JLabel("Find(N) :");
-		JLabel replaceContentLabel = new JLabel("ReplaceWith(P)¡¡ :");
+		JLabel replaceContentLabel = new JLabel("ReplaceWith(P)ï¿½ï¿½ :");
 		final JTextField findText = new JTextField(22);
 		final JTextField replaceText = new JTextField(22);
 		final JCheckBox matchcase = new JCheckBox("CaseSensitive");
@@ -713,7 +744,8 @@ public class main_frame extends JFrame implements ActionListener {
 				}
 			}
 		}); 
-		searchNext.addActionListener(new ActionListener() {//add searchNext function
+		
+		searchNext.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
 				int a = 0, b = 0;
@@ -762,7 +794,7 @@ public class main_frame extends JFrame implements ActionListener {
 
 			}
 		});
-		JButton cancel = new JButton("cancel");//add cancel function
+		JButton cancel = new JButton("cancel");
 		cancel.setPreferredSize(new Dimension(111, 21));
 		cancel.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -804,6 +836,6 @@ public class main_frame extends JFrame implements ActionListener {
 		findDialog.setLocation(225, 270);
 		findDialog.setVisible(true);
 	}
-
-
+	
 }
+
