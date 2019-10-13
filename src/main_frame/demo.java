@@ -1,6 +1,7 @@
 package main_frame;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -28,6 +29,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -71,6 +73,10 @@ import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
 import org.fife.ui.rsyntaxtextarea.SyntaxConstants;
 import org.xml.sax.SAXException;
 
+import com.google.gson.JsonIOException;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.google.gson.JsonSyntaxException;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.PageSize;
@@ -83,6 +89,12 @@ import main_frame.time_and_date;
 
 @SuppressWarnings({ "deprecation", "serial" })
 public class demo extends JFrame implements ActionListener {
+	public void Json(JMenu menu) throws JsonIOException, JsonSyntaxException, FileNotFoundException {
+		JsonParser parser =new JsonParser();
+        JsonObject json=(JsonObject) parser.parse(new FileReader("Json.json"));
+        int change = json.get("font").getAsInt();
+        menu.setForeground(new Color(change));
+	}
 	private JPanel contentPane;
 	public JTextArea textArea;
 	private JMenuItem itemOpen;
@@ -111,9 +123,9 @@ public class demo extends JFrame implements ActionListener {
 	private JMenuItem itemPrint;
 	private JMenuItem itemExit;
 	private JSeparator separator_2;
-	private JMenu itemSearch;
-	private JMenu itFormat;
-	private JMenu itemHelp;
+	public JMenu itemSearch;
+	public JMenu itFormat;
+	public JMenu itemHelp;
 	private JMenuItem itemSearchForHelp;
 	private JMenuItem itemFind;
 	private JMenuItem itemChangeToPDF;
@@ -147,7 +159,7 @@ public class demo extends JFrame implements ActionListener {
 	int second = clock.get(Calendar.SECOND);
 
 	//to create the frame	
-	public demo() throws InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
+	public demo() throws InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException, JsonIOException, JsonSyntaxException, FileNotFoundException {
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (ClassNotFoundException e1) {
@@ -161,6 +173,8 @@ public class demo extends JFrame implements ActionListener {
 		setJMenuBar(menuBar);
 
 		JMenu itemFile = new JMenu("File (F)");
+	
+		this.Json(itemFile);//apply json
 		itemFile.setMnemonic('F');
 		menuBar.add(itemFile);
 		
