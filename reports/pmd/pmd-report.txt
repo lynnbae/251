@@ -1,0 +1,1082 @@
+src/helloworld1/demo.java:1:	ExcessiveImports: A high number of imports can indicate a high degree of coupling within an object.
+src/helloworld1/demo.java:1:	ExcessiveImports: A high number of imports can indicate a high degree of coupling within an object.
+src/helloworld1/demo.java:34:	UnusedImports: Avoid unused imports such as 'java.security.DigestException'
+src/helloworld1/demo.java:34:	UnusedImports: Avoid unused imports such as 'java.security.DigestException'
+src/helloworld1/demo.java:80:	ImportFromSamePackage: No need to import a type that lives in the same package
+src/helloworld1/demo.java:80:	ImportFromSamePackage: No need to import a type that lives in the same package
+src/helloworld1/demo.java:85:	ClassNamingConventions: The class name 'demo' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:85:	ClassNamingConventions: The class name 'demo' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:85:	CommentRequired: Header comments are required
+src/helloworld1/demo.java:85:	CommentRequired: Header comments are required
+src/helloworld1/demo.java:85:	ModifiedCyclomaticComplexity: The class 'demo' has a Modified Cyclomatic Complexity of 6 (Highest = 20).
+src/helloworld1/demo.java:85:	ModifiedCyclomaticComplexity: The class 'demo' has a Modified Cyclomatic Complexity of 6 (Highest = 20).
+src/helloworld1/demo.java:85:	ShortClassName: Avoid short class names like demo
+src/helloworld1/demo.java:85:	ShortClassName: Avoid short class names like demo
+src/helloworld1/demo.java:85:	StdCyclomaticComplexity: The class 'demo' has a Standard Cyclomatic Complexity of 6 (Highest = 20).
+src/helloworld1/demo.java:85:	StdCyclomaticComplexity: The class 'demo' has a Standard Cyclomatic Complexity of 6 (Highest = 20).
+src/helloworld1/demo.java:85:	TooManyFields: Too many fields
+src/helloworld1/demo.java:85:	TooManyFields: Too many fields
+src/helloworld1/demo.java:85:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/helloworld1/demo.java:85:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/helloworld1/demo.java:86:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:86:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:86:	ImmutableField: Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:86:	ImmutableField: Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:86:	SingularField: Perhaps 'contentPane' could be replaced by a local variable.
+src/helloworld1/demo.java:86:	SingularField: Perhaps 'contentPane' could be replaced by a local variable.
+src/helloworld1/demo.java:87:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:87:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:88:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:88:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:88:	ImmutableField: Private field 'itemOpen' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:88:	ImmutableField: Private field 'itemOpen' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:89:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:89:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:89:	ImmutableField: Private field 'itemSave' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:89:	ImmutableField: Private field 'itemSave' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:92:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the flag field if you want a default access modifier
+src/helloworld1/demo.java:92:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the flag field if you want a default access modifier
+src/helloworld1/demo.java:92:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:92:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:92:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:92:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:92:	RedundantFieldInitializer: Avoid using redundant field initializer for 'flag'
+src/helloworld1/demo.java:92:	RedundantFieldInitializer: Avoid using redundant field initializer for 'flag'
+src/helloworld1/demo.java:95:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the currentFileName field if you want a default access modifier
+src/helloworld1/demo.java:95:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the currentFileName field if you want a default access modifier
+src/helloworld1/demo.java:95:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:95:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:95:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:95:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:95:	RedundantFieldInitializer: Avoid using redundant field initializer for 'currentFileName'
+src/helloworld1/demo.java:95:	RedundantFieldInitializer: Avoid using redundant field initializer for 'currentFileName'
+src/helloworld1/demo.java:98:	AvoidFieldNameMatchingMethodName: Field print has the same name as a method
+src/helloworld1/demo.java:98:	AvoidFieldNameMatchingMethodName: Field print has the same name as a method
+src/helloworld1/demo.java:98:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the print field if you want a default access modifier
+src/helloworld1/demo.java:98:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the print field if you want a default access modifier
+src/helloworld1/demo.java:98:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:98:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:98:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:98:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:98:	RedundantFieldInitializer: Avoid using redundant field initializer for 'print'
+src/helloworld1/demo.java:98:	RedundantFieldInitializer: Avoid using redundant field initializer for 'print'
+src/helloworld1/demo.java:99:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the graph field if you want a default access modifier
+src/helloworld1/demo.java:99:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the graph field if you want a default access modifier
+src/helloworld1/demo.java:99:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:99:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:99:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:99:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:99:	RedundantFieldInitializer: Avoid using redundant field initializer for 'graph'
+src/helloworld1/demo.java:99:	RedundantFieldInitializer: Avoid using redundant field initializer for 'graph'
+src/helloworld1/demo.java:102:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the currentPath field if you want a default access modifier
+src/helloworld1/demo.java:102:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the currentPath field if you want a default access modifier
+src/helloworld1/demo.java:102:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:102:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:102:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:102:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:102:	RedundantFieldInitializer: Avoid using redundant field initializer for 'currentPath'
+src/helloworld1/demo.java:102:	RedundantFieldInitializer: Avoid using redundant field initializer for 'currentPath'
+src/helloworld1/demo.java:104:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:104:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:107:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:107:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:109:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:109:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:109:	ImmutableField: Private field 'itemNew' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:109:	ImmutableField: Private field 'itemNew' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:110:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:110:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:110:	FieldNamingConventions: The field name 'separator_1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:110:	FieldNamingConventions: The field name 'separator_1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:110:	ImmutableField: Private field 'separator_1' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:110:	ImmutableField: Private field 'separator_1' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:110:	SingularField: Perhaps 'separator_1' could be replaced by a local variable.
+src/helloworld1/demo.java:110:	SingularField: Perhaps 'separator_1' could be replaced by a local variable.
+src/helloworld1/demo.java:110:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'separator_1' is not final.
+src/helloworld1/demo.java:110:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'separator_1' is not final.
+src/helloworld1/demo.java:111:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:111:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:111:	ImmutableField: Private field 'itemPrint' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:111:	ImmutableField: Private field 'itemPrint' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:112:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:112:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:112:	ImmutableField: Private field 'itemExit' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:112:	ImmutableField: Private field 'itemExit' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:113:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:113:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:113:	FieldNamingConventions: The field name 'separator_2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:113:	FieldNamingConventions: The field name 'separator_2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:113:	ImmutableField: Private field 'separator_2' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:113:	ImmutableField: Private field 'separator_2' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:113:	SingularField: Perhaps 'separator_2' could be replaced by a local variable.
+src/helloworld1/demo.java:113:	SingularField: Perhaps 'separator_2' could be replaced by a local variable.
+src/helloworld1/demo.java:113:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'separator_2' is not final.
+src/helloworld1/demo.java:113:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'separator_2' is not final.
+src/helloworld1/demo.java:114:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:114:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:114:	ImmutableField: Private field 'itemSearch' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:114:	ImmutableField: Private field 'itemSearch' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:114:	SingularField: Perhaps 'itemSearch' could be replaced by a local variable.
+src/helloworld1/demo.java:114:	SingularField: Perhaps 'itemSearch' could be replaced by a local variable.
+src/helloworld1/demo.java:115:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:115:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:115:	ImmutableField: Private field 'itFormat' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:115:	ImmutableField: Private field 'itFormat' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:115:	SingularField: Perhaps 'itFormat' could be replaced by a local variable.
+src/helloworld1/demo.java:115:	SingularField: Perhaps 'itFormat' could be replaced by a local variable.
+src/helloworld1/demo.java:116:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:116:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:116:	ImmutableField: Private field 'itemHelp' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:116:	ImmutableField: Private field 'itemHelp' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:116:	SingularField: Perhaps 'itemHelp' could be replaced by a local variable.
+src/helloworld1/demo.java:116:	SingularField: Perhaps 'itemHelp' could be replaced by a local variable.
+src/helloworld1/demo.java:117:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:117:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:117:	ImmutableField: Private field 'itemSearchForHelp' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:117:	ImmutableField: Private field 'itemSearchForHelp' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:118:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:118:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:118:	ImmutableField: Private field 'itemFind' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:118:	ImmutableField: Private field 'itemFind' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:119:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:119:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:119:	ImmutableField: Private field 'itemChangeToPDF' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:119:	ImmutableField: Private field 'itemChangeToPDF' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:120:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:120:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:120:	ImmutableField: Private field 'itemTime' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:120:	ImmutableField: Private field 'itemTime' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:121:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:121:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:121:	ImmutableField: Private field 'scrollPane' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:121:	ImmutableField: Private field 'scrollPane' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:121:	SingularField: Perhaps 'scrollPane' could be replaced by a local variable.
+src/helloworld1/demo.java:121:	SingularField: Perhaps 'scrollPane' could be replaced by a local variable.
+src/helloworld1/demo.java:122:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:122:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:122:	ImmutableField: Private field 'itemStatement' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:122:	ImmutableField: Private field 'itemStatement' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:123:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:123:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:123:	ImmutableField: Private field 'tool' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:123:	ImmutableField: Private field 'tool' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:124:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:124:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:125:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:125:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:125:	FieldNamingConventions: The field name 'Cut_fun' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:125:	FieldNamingConventions: The field name 'Cut_fun' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:125:	ImmutableField: Private field 'Cut_fun' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:125:	ImmutableField: Private field 'Cut_fun' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:125:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Cut_fun' is not final.
+src/helloworld1/demo.java:125:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Cut_fun' is not final.
+src/helloworld1/demo.java:125:	VariableNamingConventions: Variables should start with a lowercase character, 'Cut_fun' starts with uppercase character.
+src/helloworld1/demo.java:125:	VariableNamingConventions: Variables should start with a lowercase character, 'Cut_fun' starts with uppercase character.
+src/helloworld1/demo.java:126:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:126:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:126:	FieldNamingConventions: The field name 'Copy_fun' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:126:	FieldNamingConventions: The field name 'Copy_fun' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:126:	ImmutableField: Private field 'Copy_fun' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:126:	ImmutableField: Private field 'Copy_fun' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:126:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Copy_fun' is not final.
+src/helloworld1/demo.java:126:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Copy_fun' is not final.
+src/helloworld1/demo.java:126:	VariableNamingConventions: Variables should start with a lowercase character, 'Copy_fun' starts with uppercase character.
+src/helloworld1/demo.java:126:	VariableNamingConventions: Variables should start with a lowercase character, 'Copy_fun' starts with uppercase character.
+src/helloworld1/demo.java:127:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:127:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:127:	FieldNamingConventions: The field name 'Paste_fun' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:127:	FieldNamingConventions: The field name 'Paste_fun' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:127:	ImmutableField: Private field 'Paste_fun' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:127:	ImmutableField: Private field 'Paste_fun' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:127:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Paste_fun' is not final.
+src/helloworld1/demo.java:127:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Paste_fun' is not final.
+src/helloworld1/demo.java:127:	VariableNamingConventions: Variables should start with a lowercase character, 'Paste_fun' starts with uppercase character.
+src/helloworld1/demo.java:127:	VariableNamingConventions: Variables should start with a lowercase character, 'Paste_fun' starts with uppercase character.
+src/helloworld1/demo.java:128:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:128:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:128:	FieldNamingConventions: The field name 'Menu' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:128:	FieldNamingConventions: The field name 'Menu' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:128:	ImmutableField: Private field 'Menu' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:128:	ImmutableField: Private field 'Menu' could be made final; it is only initialized in the declaration or constructor.
+src/helloworld1/demo.java:128:	SingularField: Perhaps 'Menu' could be replaced by a local variable.
+src/helloworld1/demo.java:128:	SingularField: Perhaps 'Menu' could be replaced by a local variable.
+src/helloworld1/demo.java:128:	VariableNamingConventions: Variables should start with a lowercase character, 'Menu' starts with uppercase character.
+src/helloworld1/demo.java:128:	VariableNamingConventions: Variables should start with a lowercase character, 'Menu' starts with uppercase character.
+src/helloworld1/demo.java:131:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:131:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:131:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/helloworld1/demo.java:131:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/helloworld1/demo.java:132:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/helloworld1/demo.java:132:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/helloworld1/demo.java:133:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:133:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:133:	MissingOverride: The method 'run()' is missing an @Override annotation.
+src/helloworld1/demo.java:133:	MissingOverride: The method 'run()' is missing an @Override annotation.
+src/helloworld1/demo.java:135:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/helloworld1/demo.java:135:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/helloworld1/demo.java:137:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/helloworld1/demo.java:137:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/helloworld1/demo.java:138:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:138:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:144:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the clock field if you want a default access modifier
+src/helloworld1/demo.java:144:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the clock field if you want a default access modifier
+src/helloworld1/demo.java:144:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:144:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:144:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:144:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:144:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/helloworld1/demo.java:144:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/helloworld1/demo.java:145:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the hour field if you want a default access modifier
+src/helloworld1/demo.java:145:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the hour field if you want a default access modifier
+src/helloworld1/demo.java:145:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:145:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:145:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:145:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:145:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/helloworld1/demo.java:145:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/helloworld1/demo.java:146:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the minute field if you want a default access modifier
+src/helloworld1/demo.java:146:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the minute field if you want a default access modifier
+src/helloworld1/demo.java:146:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:146:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:146:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:146:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:146:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/helloworld1/demo.java:146:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/helloworld1/demo.java:147:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the second field if you want a default access modifier
+src/helloworld1/demo.java:147:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the second field if you want a default access modifier
+src/helloworld1/demo.java:147:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:147:	CommentRequired: Field comments are required
+src/helloworld1/demo.java:147:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:147:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/demo.java:147:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/helloworld1/demo.java:147:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/helloworld1/demo.java:150:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/helloworld1/demo.java:150:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/helloworld1/demo.java:150:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:150:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:150:	ExcessiveMethodLength: Avoid really long methods.
+src/helloworld1/demo.java:150:	ExcessiveMethodLength: Avoid really long methods.
+src/helloworld1/demo.java:150:	NcssCount: The constructor 'demo()' has a NCSS line count of 92.
+src/helloworld1/demo.java:150:	NcssCount: The constructor 'demo()' has a NCSS line count of 92.
+src/helloworld1/demo.java:154:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:154:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:156:	AvoidDuplicateLiterals: The String literal "Text Editor" appears 4 times in this file; the first occurrence is on line 156
+src/helloworld1/demo.java:156:	AvoidDuplicateLiterals: The String literal "Text Editor" appears 4 times in this file; the first occurrence is on line 156
+src/helloworld1/demo.java:160:	LocalVariableCouldBeFinal: Local variable 'menuBar' could be declared final
+src/helloworld1/demo.java:160:	LocalVariableCouldBeFinal: Local variable 'menuBar' could be declared final
+src/helloworld1/demo.java:163:	LocalVariableCouldBeFinal: Local variable 'itemFile' could be declared final
+src/helloworld1/demo.java:163:	LocalVariableCouldBeFinal: Local variable 'itemFile' could be declared final
+src/helloworld1/demo.java:173:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.Event.CTRL_MASK' due to existing import 'java.awt.Event'
+src/helloworld1/demo.java:173:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.Event.CTRL_MASK' due to existing import 'java.awt.Event'
+src/helloworld1/demo.java:173:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.event.KeyEvent.VK_N' due to existing import 'java.awt.event.KeyEvent'
+src/helloworld1/demo.java:173:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.event.KeyEvent.VK_N' due to existing import 'java.awt.event.KeyEvent'
+src/helloworld1/demo.java:179:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.Event.CTRL_MASK' due to existing import 'java.awt.Event'
+src/helloworld1/demo.java:179:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.Event.CTRL_MASK' due to existing import 'java.awt.Event'
+src/helloworld1/demo.java:179:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.event.KeyEvent.VK_O' due to existing import 'java.awt.event.KeyEvent'
+src/helloworld1/demo.java:179:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.event.KeyEvent.VK_O' due to existing import 'java.awt.event.KeyEvent'
+src/helloworld1/demo.java:185:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.Event.CTRL_MASK' due to existing import 'java.awt.Event'
+src/helloworld1/demo.java:185:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.Event.CTRL_MASK' due to existing import 'java.awt.Event'
+src/helloworld1/demo.java:185:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.event.KeyEvent.VK_S' due to existing import 'java.awt.event.KeyEvent'
+src/helloworld1/demo.java:185:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.event.KeyEvent.VK_S' due to existing import 'java.awt.event.KeyEvent'
+src/helloworld1/demo.java:194:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.Event.CTRL_MASK' due to existing import 'java.awt.Event'
+src/helloworld1/demo.java:194:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.Event.CTRL_MASK' due to existing import 'java.awt.Event'
+src/helloworld1/demo.java:194:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.event.KeyEvent.VK_P' due to existing import 'java.awt.event.KeyEvent'
+src/helloworld1/demo.java:194:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'java.awt.event.KeyEvent.VK_P' due to existing import 'java.awt.event.KeyEvent'
+src/helloworld1/demo.java:266:	AssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+src/helloworld1/demo.java:266:	AssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+src/helloworld1/demo.java:272:	LocalVariableCouldBeFinal: Local variable 'clock' could be declared final
+src/helloworld1/demo.java:272:	LocalVariableCouldBeFinal: Local variable 'clock' could be declared final
+src/helloworld1/demo.java:276:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'jp' (lines '276'-'288').
+src/helloworld1/demo.java:276:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'jp' (lines '276'-'288').
+src/helloworld1/demo.java:276:	ShortVariable: Avoid variables with short names like jp
+src/helloworld1/demo.java:276:	ShortVariable: Avoid variables with short names like jp
+src/helloworld1/demo.java:279:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:279:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:279:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:279:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:290:	MethodNamingConventions: The instance method name 'MainFrameWidowListener' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:290:	MethodNamingConventions: The instance method name 'MainFrameWidowListener' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:294:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:294:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:294:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:294:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:296:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:296:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:298:	AvoidDuplicateLiterals: The String literal "Notepad" appears 9 times in this file; the first occurrence is on line 298
+src/helloworld1/demo.java:298:	AvoidDuplicateLiterals: The String literal "Notepad" appears 9 times in this file; the first occurrence is on line 298
+src/helloworld1/demo.java:301:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/helloworld1/demo.java:301:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/helloworld1/demo.java:309:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:309:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:315:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/helloworld1/demo.java:315:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/helloworld1/demo.java:322:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:322:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:336:	MethodArgumentCouldBeFinal: Parameter 'component' is not assigned and could be declared final
+src/helloworld1/demo.java:336:	MethodArgumentCouldBeFinal: Parameter 'component' is not assigned and could be declared final
+src/helloworld1/demo.java:338:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:338:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:338:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:338:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:338:	MissingOverride: The method 'mousePressed(MouseEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:338:	MissingOverride: The method 'mousePressed(MouseEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:338:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:338:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:344:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:344:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:344:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:344:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:344:	MissingOverride: The method 'mouseReleased(MouseEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:344:	MissingOverride: The method 'mouseReleased(MouseEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:344:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:344:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:350:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:350:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:350:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:350:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:356:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:356:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:356:	CyclomaticComplexity: The method 'actionPerformed(ActionEvent)' has a cyclomatic complexity of 17.
+src/helloworld1/demo.java:356:	CyclomaticComplexity: The method 'actionPerformed(ActionEvent)' has a cyclomatic complexity of 17.
+src/helloworld1/demo.java:356:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:356:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:356:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:356:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:356:	ModifiedCyclomaticComplexity: The method 'actionPerformed' has a Modified Cyclomatic Complexity of 17.
+src/helloworld1/demo.java:356:	ModifiedCyclomaticComplexity: The method 'actionPerformed' has a Modified Cyclomatic Complexity of 17.
+src/helloworld1/demo.java:356:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:356:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:356:	StdCyclomaticComplexity: The method 'actionPerformed' has a Standard Cyclomatic Complexity of 17.
+src/helloworld1/demo.java:356:	StdCyclomaticComplexity: The method 'actionPerformed' has a Standard Cyclomatic Complexity of 17.
+src/helloworld1/demo.java:362:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:362:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:369:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:369:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:409:	CyclomaticComplexity: The method 'exit()' has a cyclomatic complexity of 10.
+src/helloworld1/demo.java:409:	CyclomaticComplexity: The method 'exit()' has a cyclomatic complexity of 10.
+src/helloworld1/demo.java:411:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:411:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:411:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:411:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:412:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:412:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:417:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:417:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:417:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:417:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:417:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:417:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:419:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:419:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:419:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:419:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:419:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:419:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:420:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:420:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:420:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:420:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:420:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:420:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:423:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:423:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:423:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:423:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:424:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:424:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:429:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:429:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:429:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:429:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:429:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:429:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:431:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:431:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:431:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:431:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:431:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:431:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:432:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:432:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:432:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:432:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:432:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:432:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:435:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:435:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:435:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:435:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:435:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:435:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:439:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:439:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:439:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:439:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:439:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:439:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:440:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:440:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:440:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:440:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:440:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:440:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:446:	CyclomaticComplexity: The method 'newFile()' has a cyclomatic complexity of 10.
+src/helloworld1/demo.java:446:	CyclomaticComplexity: The method 'newFile()' has a cyclomatic complexity of 10.
+src/helloworld1/demo.java:448:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/helloworld1/demo.java:448:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/helloworld1/demo.java:455:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:455:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:455:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:455:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:455:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:455:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:456:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:456:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:467:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/helloworld1/demo.java:467:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/helloworld1/demo.java:475:	LocalVariableCouldBeFinal: Local variable 'choose' could be declared final
+src/helloworld1/demo.java:475:	LocalVariableCouldBeFinal: Local variable 'choose' could be declared final
+src/helloworld1/demo.java:476:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:476:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:478:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/helloworld1/demo.java:478:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/helloworld1/demo.java:485:	LocalVariableCouldBeFinal: Local variable 'pdfChoose' could be declared final
+src/helloworld1/demo.java:485:	LocalVariableCouldBeFinal: Local variable 'pdfChoose' could be declared final
+src/helloworld1/demo.java:488:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/helloworld1/demo.java:488:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/helloworld1/demo.java:490:	LocalVariableCouldBeFinal: Local variable 'doc' could be declared final
+src/helloworld1/demo.java:490:	LocalVariableCouldBeFinal: Local variable 'doc' could be declared final
+src/helloworld1/demo.java:491:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/demo.java:491:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/demo.java:497:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:497:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:511:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:511:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:511:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/helloworld1/demo.java:511:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/helloworld1/demo.java:511:	MethodArgumentCouldBeFinal: Parameter 'textArea' is not assigned and could be declared final
+src/helloworld1/demo.java:511:	MethodArgumentCouldBeFinal: Parameter 'textArea' is not assigned and could be declared final
+src/helloworld1/demo.java:512:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'fw' (lines '512'-'514').
+src/helloworld1/demo.java:512:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'fw' (lines '512'-'514').
+src/helloworld1/demo.java:512:	ShortVariable: Avoid variables with short names like fw
+src/helloworld1/demo.java:512:	ShortVariable: Avoid variables with short names like fw
+src/helloworld1/demo.java:514:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/demo.java:514:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/demo.java:516:	LocalVariableCouldBeFinal: Local variable 'currentFileName' could be declared final
+src/helloworld1/demo.java:516:	LocalVariableCouldBeFinal: Local variable 'currentFileName' could be declared final
+src/helloworld1/demo.java:517:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'currentFileName' (lines '517'-'531').
+src/helloworld1/demo.java:517:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'currentFileName' (lines '517'-'531').
+src/helloworld1/demo.java:518:	LocalVariableCouldBeFinal: Local variable 'currentPath' could be declared final
+src/helloworld1/demo.java:518:	LocalVariableCouldBeFinal: Local variable 'currentPath' could be declared final
+src/helloworld1/demo.java:519:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'currentPath' (lines '519'-'531').
+src/helloworld1/demo.java:519:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'currentPath' (lines '519'-'531').
+src/helloworld1/demo.java:522:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:522:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:525:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/helloworld1/demo.java:525:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/helloworld1/demo.java:526:	ControlStatementBraces: This statement should have braces
+src/helloworld1/demo.java:526:	ControlStatementBraces: This statement should have braces
+src/helloworld1/demo.java:528:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:528:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:533:	CyclomaticComplexity: The method 'openFile()' has a cyclomatic complexity of 12.
+src/helloworld1/demo.java:533:	CyclomaticComplexity: The method 'openFile()' has a cyclomatic complexity of 12.
+src/helloworld1/demo.java:533:	ModifiedCyclomaticComplexity: The method 'openFile' has a Modified Cyclomatic Complexity of 10.
+src/helloworld1/demo.java:533:	ModifiedCyclomaticComplexity: The method 'openFile' has a Modified Cyclomatic Complexity of 10.
+src/helloworld1/demo.java:533:	StdCyclomaticComplexity: The method 'openFile' has a Standard Cyclomatic Complexity of 10.
+src/helloworld1/demo.java:533:	StdCyclomaticComplexity: The method 'openFile' has a Standard Cyclomatic Complexity of 10.
+src/helloworld1/demo.java:535:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:535:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:535:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:535:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:535:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:535:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:544:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:544:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:544:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:544:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:544:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:544:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:544:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:544:	UselessQualifiedThis: Useless qualified this usage in the same class.
+src/helloworld1/demo.java:553:	LocalVariableCouldBeFinal: Local variable 'choose' could be declared final
+src/helloworld1/demo.java:553:	LocalVariableCouldBeFinal: Local variable 'choose' could be declared final
+src/helloworld1/demo.java:554:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:554:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/helloworld1/demo.java:558:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/helloworld1/demo.java:558:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:559:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:561:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/demo.java:561:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/demo.java:561:	CloseResource: Ensure that resources like this FileInputStream object are closed after use
+src/helloworld1/demo.java:561:	CloseResource: Ensure that resources like this FileInputStream object are closed after use
+src/helloworld1/demo.java:561:	EmptyStatementNotInLoop: An empty statement (semicolon) not part of a loop
+src/helloworld1/demo.java:561:	EmptyStatementNotInLoop: An empty statement (semicolon) not part of a loop
+src/helloworld1/demo.java:561:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:561:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:561:	LocalVariableCouldBeFinal: Local variable 'file2' could be declared final
+src/helloworld1/demo.java:561:	LocalVariableCouldBeFinal: Local variable 'file2' could be declared final
+src/helloworld1/demo.java:562:	LocalVariableCouldBeFinal: Local variable 'pcontext' could be declared final
+src/helloworld1/demo.java:562:	LocalVariableCouldBeFinal: Local variable 'pcontext' could be declared final
+src/helloworld1/demo.java:563:	LocalVariableCouldBeFinal: Local variable 'handler' could be declared final
+src/helloworld1/demo.java:563:	LocalVariableCouldBeFinal: Local variable 'handler' could be declared final
+src/helloworld1/demo.java:564:	LocalVariableCouldBeFinal: Local variable 'metadata' could be declared final
+src/helloworld1/demo.java:564:	LocalVariableCouldBeFinal: Local variable 'metadata' could be declared final
+src/helloworld1/demo.java:566:	LocalVariableCouldBeFinal: Local variable 'openofficeparser' could be declared final
+src/helloworld1/demo.java:566:	LocalVariableCouldBeFinal: Local variable 'openofficeparser' could be declared final
+src/helloworld1/demo.java:571:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:571:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:572:	IdenticalCatchBranches: 'catch' branch identical to 'IOException' branch
+src/helloworld1/demo.java:572:	IdenticalCatchBranches: 'catch' branch identical to 'IOException' branch
+src/helloworld1/demo.java:574:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:574:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:575:	IdenticalCatchBranches: 'catch' branch identical to 'IOException' branch
+src/helloworld1/demo.java:575:	IdenticalCatchBranches: 'catch' branch identical to 'IOException' branch
+src/helloworld1/demo.java:577:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:577:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:586:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:586:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:586:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/helloworld1/demo.java:586:	MethodArgumentCouldBeFinal: Parameter 'file' is not assigned and could be declared final
+src/helloworld1/demo.java:586:	MethodArgumentCouldBeFinal: Parameter 'textArea' is not assigned and could be declared final
+src/helloworld1/demo.java:586:	MethodArgumentCouldBeFinal: Parameter 'textArea' is not assigned and could be declared final
+src/helloworld1/demo.java:590:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'br' (lines '590'-'594').
+src/helloworld1/demo.java:590:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'br' (lines '590'-'594').
+src/helloworld1/demo.java:590:	ShortVariable: Avoid variables with short names like br
+src/helloworld1/demo.java:590:	ShortVariable: Avoid variables with short names like br
+src/helloworld1/demo.java:592:	CloseResource: Ensure that resources like this InputStreamReader object are closed after use
+src/helloworld1/demo.java:592:	CloseResource: Ensure that resources like this InputStreamReader object are closed after use
+src/helloworld1/demo.java:592:	LocalVariableCouldBeFinal: Local variable 'isr' could be declared final
+src/helloworld1/demo.java:592:	LocalVariableCouldBeFinal: Local variable 'isr' could be declared final
+src/helloworld1/demo.java:593:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/demo.java:593:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/demo.java:595:	LocalVariableCouldBeFinal: Local variable 'sb' could be declared final
+src/helloworld1/demo.java:595:	LocalVariableCouldBeFinal: Local variable 'sb' could be declared final
+src/helloworld1/demo.java:595:	ShortVariable: Avoid variables with short names like sb
+src/helloworld1/demo.java:595:	ShortVariable: Avoid variables with short names like sb
+src/helloworld1/demo.java:596:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '596'-'597').
+src/helloworld1/demo.java:596:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'line' (lines '596'-'597').
+src/helloworld1/demo.java:597:	AssignmentInOperand: Avoid assignments in operands
+src/helloworld1/demo.java:597:	AssignmentInOperand: Avoid assignments in operands
+src/helloworld1/demo.java:597:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '597'-'613').
+src/helloworld1/demo.java:597:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '597'-'613').
+src/helloworld1/demo.java:598:	InefficientStringBuffering: Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+src/helloworld1/demo.java:598:	InefficientStringBuffering: Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+src/helloworld1/demo.java:602:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:602:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:603:	IdenticalCatchBranches: 'catch' branch identical to 'FileNotFoundException' branch
+src/helloworld1/demo.java:603:	IdenticalCatchBranches: 'catch' branch identical to 'FileNotFoundException' branch
+src/helloworld1/demo.java:604:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:604:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:607:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/helloworld1/demo.java:607:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/helloworld1/demo.java:608:	ControlStatementBraces: This statement should have braces
+src/helloworld1/demo.java:608:	ControlStatementBraces: This statement should have braces
+src/helloworld1/demo.java:609:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/helloworld1/demo.java:609:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/helloworld1/demo.java:610:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:610:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:614:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:614:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:614:	MethodNamingConventions: The instance method name 'Print' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:614:	MethodNamingConventions: The instance method name 'Print' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:616:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:616:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/helloworld1/demo.java:620:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/helloworld1/demo.java:620:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/helloworld1/demo.java:620:	EmptyCatchBlock: Avoid empty catch blocks
+src/helloworld1/demo.java:620:	EmptyCatchBlock: Avoid empty catch blocks
+src/helloworld1/demo.java:625:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:625:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:627:	LocalVariableCouldBeFinal: Local variable 'start' could be declared final
+src/helloworld1/demo.java:627:	LocalVariableCouldBeFinal: Local variable 'start' could be declared final
+src/helloworld1/demo.java:628:	LocalVariableCouldBeFinal: Local variable 'end' could be declared final
+src/helloworld1/demo.java:628:	LocalVariableCouldBeFinal: Local variable 'end' could be declared final
+src/helloworld1/demo.java:633:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:633:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:634:	LocalVariableCouldBeFinal: Local variable 'temp' could be declared final
+src/helloworld1/demo.java:634:	LocalVariableCouldBeFinal: Local variable 'temp' could be declared final
+src/helloworld1/demo.java:635:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/helloworld1/demo.java:635:	LocalVariableCouldBeFinal: Local variable 'text' could be declared final
+src/helloworld1/demo.java:639:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:639:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:640:	LocalVariableCouldBeFinal: Local variable 'contents' could be declared final
+src/helloworld1/demo.java:640:	LocalVariableCouldBeFinal: Local variable 'contents' could be declared final
+src/helloworld1/demo.java:641:	LocalVariableCouldBeFinal: Local variable 'flavor' could be declared final
+src/helloworld1/demo.java:641:	LocalVariableCouldBeFinal: Local variable 'flavor' could be declared final
+src/helloworld1/demo.java:642:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:642:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:646:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/helloworld1/demo.java:646:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/helloworld1/demo.java:647:	LocalVariableCouldBeFinal: Local variable 'start' could be declared final
+src/helloworld1/demo.java:647:	LocalVariableCouldBeFinal: Local variable 'start' could be declared final
+src/helloworld1/demo.java:648:	LocalVariableCouldBeFinal: Local variable 'end' could be declared final
+src/helloworld1/demo.java:648:	LocalVariableCouldBeFinal: Local variable 'end' could be declared final
+src/helloworld1/demo.java:651:	LocalVariableCouldBeFinal: Local variable 'mouse' could be declared final
+src/helloworld1/demo.java:651:	LocalVariableCouldBeFinal: Local variable 'mouse' could be declared final
+src/helloworld1/demo.java:655:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:655:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:656:	IdenticalCatchBranches: 'catch' branch identical to 'UnsupportedFlavorException' branch
+src/helloworld1/demo.java:656:	IdenticalCatchBranches: 'catch' branch identical to 'UnsupportedFlavorException' branch
+src/helloworld1/demo.java:657:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:657:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:658:	IdenticalCatchBranches: 'catch' branch identical to 'UnsupportedFlavorException' branch
+src/helloworld1/demo.java:658:	IdenticalCatchBranches: 'catch' branch identical to 'UnsupportedFlavorException' branch
+src/helloworld1/demo.java:659:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:659:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/demo.java:664:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:664:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:664:	MethodArgumentCouldBeFinal: Parameter 'down' is not assigned and could be declared final
+src/helloworld1/demo.java:664:	MethodArgumentCouldBeFinal: Parameter 'down' is not assigned and could be declared final
+src/helloworld1/demo.java:664:	MethodArgumentCouldBeFinal: Parameter 'judge' is not assigned and could be declared final
+src/helloworld1/demo.java:664:	MethodArgumentCouldBeFinal: Parameter 'judge' is not assigned and could be declared final
+src/helloworld1/demo.java:664:	MethodArgumentCouldBeFinal: Parameter 'search' is not assigned and could be declared final
+src/helloworld1/demo.java:664:	MethodArgumentCouldBeFinal: Parameter 'search' is not assigned and could be declared final
+src/helloworld1/demo.java:664:	MethodArgumentCouldBeFinal: Parameter 'textArea' is not assigned and could be declared final
+src/helloworld1/demo.java:664:	MethodArgumentCouldBeFinal: Parameter 'textArea' is not assigned and could be declared final
+src/helloworld1/demo.java:664:	MethodArgumentCouldBeFinal: Parameter 'up' is not assigned and could be declared final
+src/helloworld1/demo.java:664:	MethodArgumentCouldBeFinal: Parameter 'up' is not assigned and could be declared final
+src/helloworld1/demo.java:664:	ShortVariable: Avoid variables with short names like up
+src/helloworld1/demo.java:664:	ShortVariable: Avoid variables with short names like up
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'a' (lines '665'-'680').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'a' (lines '665'-'680').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'a' (lines '665'-'682').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'a' (lines '665'-'682').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'a' (lines '665'-'686').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'a' (lines '665'-'686').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'a' (lines '665'-'688').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'a' (lines '665'-'688').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '665'-'695').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '665'-'695').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '665'-'699').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '665'-'699').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'b' (lines '665'-'706').
+src/helloworld1/demo.java:665:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'b' (lines '665'-'706').
+src/helloworld1/demo.java:665:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/helloworld1/demo.java:665:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/helloworld1/demo.java:665:	ShortVariable: Avoid variables with short names like a
+src/helloworld1/demo.java:665:	ShortVariable: Avoid variables with short names like a
+src/helloworld1/demo.java:665:	ShortVariable: Avoid variables with short names like b
+src/helloworld1/demo.java:665:	ShortVariable: Avoid variables with short names like b
+src/helloworld1/demo.java:666:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'FindStartPos' (lines '666'-'706').
+src/helloworld1/demo.java:666:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'FindStartPos' (lines '666'-'706').
+src/helloworld1/demo.java:666:	LocalVariableCouldBeFinal: Local variable 'FindStartPos' could be declared final
+src/helloworld1/demo.java:666:	LocalVariableCouldBeFinal: Local variable 'FindStartPos' could be declared final
+src/helloworld1/demo.java:666:	LocalVariableNamingConventions: The local variable name 'FindStartPos' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:666:	LocalVariableNamingConventions: The local variable name 'FindStartPos' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:666:	VariableNamingConventions: Variables should start with a lowercase character, 'FindStartPos' starts with uppercase character.
+src/helloworld1/demo.java:666:	VariableNamingConventions: Variables should start with a lowercase character, 'FindStartPos' starts with uppercase character.
+src/helloworld1/demo.java:667:	LocalVariableNamingConventions: The local variable name 'search_lower' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:667:	LocalVariableNamingConventions: The local variable name 'search_lower' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:667:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/helloworld1/demo.java:667:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/helloworld1/demo.java:667:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'search_lower' is not final.
+src/helloworld1/demo.java:667:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'search_lower' is not final.
+src/helloworld1/demo.java:669:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'lower' (lines '669'-'706').
+src/helloworld1/demo.java:669:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'lower' (lines '669'-'706').
+src/helloworld1/demo.java:669:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:669:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:669:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/helloworld1/demo.java:669:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/helloworld1/demo.java:670:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'search_lower' (lines '670'-'706').
+src/helloworld1/demo.java:670:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'search_lower' (lines '670'-'706').
+src/helloworld1/demo.java:670:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/helloworld1/demo.java:670:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/helloworld1/demo.java:672:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'strA' (lines '672'-'706').
+src/helloworld1/demo.java:672:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'strA' (lines '672'-'706').
+src/helloworld1/demo.java:673:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'strB' (lines '673'-'706').
+src/helloworld1/demo.java:673:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'strB' (lines '673'-'706').
+src/helloworld1/demo.java:675:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'strA' (lines '675'-'706').
+src/helloworld1/demo.java:675:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'strA' (lines '675'-'706').
+src/helloworld1/demo.java:676:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'strB' (lines '676'-'706').
+src/helloworld1/demo.java:676:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'strB' (lines '676'-'706').
+src/helloworld1/demo.java:708:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:708:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:708:	ExcessiveMethodLength: Avoid really long methods.
+src/helloworld1/demo.java:708:	ExcessiveMethodLength: Avoid really long methods.
+src/helloworld1/demo.java:708:	ModifiedCyclomaticComplexity: The method 'mySearch' has a Modified Cyclomatic Complexity of 20.
+src/helloworld1/demo.java:708:	ModifiedCyclomaticComplexity: The method 'mySearch' has a Modified Cyclomatic Complexity of 20.
+src/helloworld1/demo.java:708:	NPathComplexity: The method 'mySearch()' has an NPath complexity of 8118
+src/helloworld1/demo.java:708:	NPathComplexity: The method 'mySearch()' has an NPath complexity of 8118
+src/helloworld1/demo.java:708:	StdCyclomaticComplexity: The method 'mySearch' has a Standard Cyclomatic Complexity of 20.
+src/helloworld1/demo.java:708:	StdCyclomaticComplexity: The method 'mySearch' has a Standard Cyclomatic Complexity of 20.
+src/helloworld1/demo.java:710:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/helloworld1/demo.java:710:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/helloworld1/demo.java:713:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'searchContentLabel' (lines '713'-'875').
+src/helloworld1/demo.java:713:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'searchContentLabel' (lines '713'-'875').
+src/helloworld1/demo.java:713:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'searchContentLabel' (lines '713'-'875').
+src/helloworld1/demo.java:713:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'searchContentLabel' (lines '713'-'875').
+src/helloworld1/demo.java:713:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'searchContentLabel' (lines '713'-'875').
+src/helloworld1/demo.java:713:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'searchContentLabel' (lines '713'-'875').
+src/helloworld1/demo.java:713:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'searchContentLabel' (lines '713'-'875').
+src/helloworld1/demo.java:713:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'searchContentLabel' (lines '713'-'875').
+src/helloworld1/demo.java:713:	LocalVariableCouldBeFinal: Local variable 'searchContentLabel' could be declared final
+src/helloworld1/demo.java:713:	LocalVariableCouldBeFinal: Local variable 'searchContentLabel' could be declared final
+src/helloworld1/demo.java:713:	LongVariable: Avoid excessively long variable names like searchContentLabel
+src/helloworld1/demo.java:713:	LongVariable: Avoid excessively long variable names like searchContentLabel
+src/helloworld1/demo.java:714:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceContentLabel' (lines '714'-'875').
+src/helloworld1/demo.java:714:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceContentLabel' (lines '714'-'875').
+src/helloworld1/demo.java:714:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceContentLabel' (lines '714'-'875').
+src/helloworld1/demo.java:714:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceContentLabel' (lines '714'-'875').
+src/helloworld1/demo.java:714:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceContentLabel' (lines '714'-'875').
+src/helloworld1/demo.java:714:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceContentLabel' (lines '714'-'875').
+src/helloworld1/demo.java:714:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceContentLabel' (lines '714'-'875').
+src/helloworld1/demo.java:714:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceContentLabel' (lines '714'-'875').
+src/helloworld1/demo.java:714:	LocalVariableCouldBeFinal: Local variable 'replaceContentLabel' could be declared final
+src/helloworld1/demo.java:714:	LocalVariableCouldBeFinal: Local variable 'replaceContentLabel' could be declared final
+src/helloworld1/demo.java:714:	LongVariable: Avoid excessively long variable names like replaceContentLabel
+src/helloworld1/demo.java:714:	LongVariable: Avoid excessively long variable names like replaceContentLabel
+src/helloworld1/demo.java:717:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'matchcase' (lines '717'-'875').
+src/helloworld1/demo.java:717:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'matchcase' (lines '717'-'875').
+src/helloworld1/demo.java:717:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'matchcase' (lines '717'-'875').
+src/helloworld1/demo.java:717:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'matchcase' (lines '717'-'875').
+src/helloworld1/demo.java:717:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'matchcase' (lines '717'-'875').
+src/helloworld1/demo.java:717:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'matchcase' (lines '717'-'875').
+src/helloworld1/demo.java:717:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'matchcase' (lines '717'-'875').
+src/helloworld1/demo.java:717:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'matchcase' (lines '717'-'875').
+src/helloworld1/demo.java:718:	LocalVariableCouldBeFinal: Local variable 'bGroup' could be declared final
+src/helloworld1/demo.java:718:	LocalVariableCouldBeFinal: Local variable 'bGroup' could be declared final
+src/helloworld1/demo.java:719:	ShortVariable: Avoid variables with short names like up
+src/helloworld1/demo.java:719:	ShortVariable: Avoid variables with short names like up
+src/helloworld1/demo.java:724:	LocalVariableCouldBeFinal: Local variable 'searchNext' could be declared final
+src/helloworld1/demo.java:724:	LocalVariableCouldBeFinal: Local variable 'searchNext' could be declared final
+src/helloworld1/demo.java:725:	LocalVariableCouldBeFinal: Local variable 'replace' could be declared final
+src/helloworld1/demo.java:725:	LocalVariableCouldBeFinal: Local variable 'replace' could be declared final
+src/helloworld1/demo.java:733:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:733:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:733:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:733:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:733:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:733:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:733:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:733:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:735:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/helloworld1/demo.java:735:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/helloworld1/demo.java:737:	ControlStatementBraces: This statement should have braces
+src/helloworld1/demo.java:737:	ControlStatementBraces: This statement should have braces
+src/helloworld1/demo.java:738:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/helloworld1/demo.java:738:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/helloworld1/demo.java:740:	ControlStatementBraces: This statement should have braces
+src/helloworld1/demo.java:740:	ControlStatementBraces: This statement should have braces
+src/helloworld1/demo.java:745:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:745:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:745:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:745:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:745:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:745:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:745:	ModifiedCyclomaticComplexity: The method 'actionPerformed' has a Modified Cyclomatic Complexity of 14.
+src/helloworld1/demo.java:745:	ModifiedCyclomaticComplexity: The method 'actionPerformed' has a Modified Cyclomatic Complexity of 14.
+src/helloworld1/demo.java:745:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:745:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:745:	StdCyclomaticComplexity: The method 'actionPerformed' has a Standard Cyclomatic Complexity of 14.
+src/helloworld1/demo.java:745:	StdCyclomaticComplexity: The method 'actionPerformed' has a Standard Cyclomatic Complexity of 14.
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'789').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'789').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'789').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'789').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'789').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'789').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'793').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'793').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'793').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'793').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'793').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'b' (lines '746'-'793').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'811').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'811').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'811').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'811').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'811').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'811').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'816').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'816').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'816').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'816').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'816').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '746'-'816').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'a' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'a' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'a' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'a' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'a' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'a' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'a' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'a' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'b' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'b' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'b' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'b' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'b' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'b' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '746'-'875').
+src/helloworld1/demo.java:746:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '746'-'875').
+src/helloworld1/demo.java:746:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/helloworld1/demo.java:746:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/helloworld1/demo.java:746:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/helloworld1/demo.java:746:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/helloworld1/demo.java:746:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/helloworld1/demo.java:746:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/helloworld1/demo.java:746:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/helloworld1/demo.java:746:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/helloworld1/demo.java:746:	ShortVariable: Avoid variables with short names like a
+src/helloworld1/demo.java:746:	ShortVariable: Avoid variables with short names like a
+src/helloworld1/demo.java:746:	ShortVariable: Avoid variables with short names like b
+src/helloworld1/demo.java:746:	ShortVariable: Avoid variables with short names like b
+src/helloworld1/demo.java:754:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'FindStartPos' (lines '754'-'875').
+src/helloworld1/demo.java:754:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'FindStartPos' (lines '754'-'875').
+src/helloworld1/demo.java:754:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'FindStartPos' (lines '754'-'875').
+src/helloworld1/demo.java:754:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'FindStartPos' (lines '754'-'875').
+src/helloworld1/demo.java:754:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'FindStartPos' (lines '754'-'875').
+src/helloworld1/demo.java:754:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'FindStartPos' (lines '754'-'875').
+src/helloworld1/demo.java:754:	LocalVariableCouldBeFinal: Local variable 'FindStartPos' could be declared final
+src/helloworld1/demo.java:754:	LocalVariableCouldBeFinal: Local variable 'FindStartPos' could be declared final
+src/helloworld1/demo.java:754:	LocalVariableNamingConventions: The local variable name 'FindStartPos' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:754:	LocalVariableNamingConventions: The local variable name 'FindStartPos' doesn't match '[a-z][a-zA-Z0-9]*'
+src/helloworld1/demo.java:754:	VariableNamingConventions: Variables should start with a lowercase character, 'FindStartPos' starts with uppercase character.
+src/helloworld1/demo.java:754:	VariableNamingConventions: Variables should start with a lowercase character, 'FindStartPos' starts with uppercase character.
+src/helloworld1/demo.java:755:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/helloworld1/demo.java:755:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string2' (lines '757'-'757').
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string2' (lines '757'-'757').
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string2' (lines '757'-'757').
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string2' (lines '757'-'757').
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string2' (lines '757'-'757').
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string2' (lines '757'-'757').
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string2' (lines '757'-'875').
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string2' (lines '757'-'875').
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string2' (lines '757'-'875').
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string2' (lines '757'-'875').
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string2' (lines '757'-'875').
+src/helloworld1/demo.java:757:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string2' (lines '757'-'875').
+src/helloworld1/demo.java:757:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/helloworld1/demo.java:757:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string4' (lines '759'-'759').
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string4' (lines '759'-'759').
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string4' (lines '759'-'759').
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string4' (lines '759'-'759').
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string4' (lines '759'-'759').
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'string4' (lines '759'-'759').
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string4' (lines '759'-'875').
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string4' (lines '759'-'875').
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string4' (lines '759'-'875').
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string4' (lines '759'-'875').
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string4' (lines '759'-'875').
+src/helloworld1/demo.java:759:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'string4' (lines '759'-'875').
+src/helloworld1/demo.java:759:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/helloworld1/demo.java:759:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/helloworld1/demo.java:762:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '762'-'875').
+src/helloworld1/demo.java:762:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '762'-'875').
+src/helloworld1/demo.java:762:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '762'-'875').
+src/helloworld1/demo.java:762:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '762'-'875').
+src/helloworld1/demo.java:762:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '762'-'875').
+src/helloworld1/demo.java:762:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '762'-'875').
+src/helloworld1/demo.java:763:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '763'-'875').
+src/helloworld1/demo.java:763:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '763'-'875').
+src/helloworld1/demo.java:763:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '763'-'875').
+src/helloworld1/demo.java:763:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '763'-'875').
+src/helloworld1/demo.java:763:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '763'-'875').
+src/helloworld1/demo.java:763:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '763'-'875').
+src/helloworld1/demo.java:765:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '765'-'875').
+src/helloworld1/demo.java:765:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '765'-'875').
+src/helloworld1/demo.java:765:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '765'-'875').
+src/helloworld1/demo.java:765:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '765'-'875').
+src/helloworld1/demo.java:765:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '765'-'875').
+src/helloworld1/demo.java:765:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringA' (lines '765'-'875').
+src/helloworld1/demo.java:766:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '766'-'875').
+src/helloworld1/demo.java:766:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '766'-'875').
+src/helloworld1/demo.java:766:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '766'-'875').
+src/helloworld1/demo.java:766:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '766'-'875').
+src/helloworld1/demo.java:766:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '766'-'875').
+src/helloworld1/demo.java:766:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'stringB' (lines '766'-'875').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'811').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'811').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'811').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'811').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'811').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'811').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'816').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'816').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'816').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'816').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'816').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '811'-'816').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '811'-'875').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '811'-'875').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '811'-'875').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '811'-'875').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '811'-'875').
+src/helloworld1/demo.java:811:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '811'-'875').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'811').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'811').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'811').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'811').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'811').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'811').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'816').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'816').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'816').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'816').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'816').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'replaceCount' (lines '816'-'816').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '816'-'875').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '816'-'875').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '816'-'875').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '816'-'875').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '816'-'875').
+src/helloworld1/demo.java:816:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'replaceCount' (lines '816'-'875').
+src/helloworld1/demo.java:824:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:824:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:824:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:824:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:824:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:824:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:824:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:824:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:825:	LocalVariableCouldBeFinal: Local variable 'search' could be declared final
+src/helloworld1/demo.java:825:	LocalVariableCouldBeFinal: Local variable 'search' could be declared final
+src/helloworld1/demo.java:826:	LocalVariableCouldBeFinal: Local variable 'judge' could be declared final
+src/helloworld1/demo.java:826:	LocalVariableCouldBeFinal: Local variable 'judge' could be declared final
+src/helloworld1/demo.java:827:	LocalVariableCouldBeFinal: Local variable 'judgeUP' could be declared final
+src/helloworld1/demo.java:827:	LocalVariableCouldBeFinal: Local variable 'judgeUP' could be declared final
+src/helloworld1/demo.java:828:	LocalVariableCouldBeFinal: Local variable 'judgeDown' could be declared final
+src/helloworld1/demo.java:828:	LocalVariableCouldBeFinal: Local variable 'judgeDown' could be declared final
+src/helloworld1/demo.java:829:	SystemPrintln: System.out.print is used
+src/helloworld1/demo.java:829:	SystemPrintln: System.out.print is used
+src/helloworld1/demo.java:834:	LocalVariableCouldBeFinal: Local variable 'cancel' could be declared final
+src/helloworld1/demo.java:834:	LocalVariableCouldBeFinal: Local variable 'cancel' could be declared final
+src/helloworld1/demo.java:837:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:837:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/demo.java:837:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:837:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/helloworld1/demo.java:837:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:837:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/helloworld1/demo.java:837:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:837:	ShortVariable: Avoid variables with short names like e
+src/helloworld1/demo.java:842:	LocalVariableCouldBeFinal: Local variable 'bottomPanel' could be declared final
+src/helloworld1/demo.java:842:	LocalVariableCouldBeFinal: Local variable 'bottomPanel' could be declared final
+src/helloworld1/demo.java:843:	LocalVariableCouldBeFinal: Local variable 'centerPanel' could be declared final
+src/helloworld1/demo.java:843:	LocalVariableCouldBeFinal: Local variable 'centerPanel' could be declared final
+src/helloworld1/demo.java:845:	LocalVariableCouldBeFinal: Local variable 'topPanel' could be declared final
+src/helloworld1/demo.java:845:	LocalVariableCouldBeFinal: Local variable 'topPanel' could be declared final
+src/helloworld1/demo.java:847:	LocalVariableCouldBeFinal: Local variable 'direction' could be declared final
+src/helloworld1/demo.java:847:	LocalVariableCouldBeFinal: Local variable 'direction' could be declared final
+src/helloworld1/demo.java:852:	LocalVariableCouldBeFinal: Local variable 'replacePanel' could be declared final
+src/helloworld1/demo.java:852:	LocalVariableCouldBeFinal: Local variable 'replacePanel' could be declared final
+src/helloworld1/demo.java:867:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:867:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:868:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:868:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:869:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/demo.java:869:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/helloworld1/test1.java:15:	UnusedImports: Avoid unused imports such as 'org.junit.jupiter.api.BeforeEach'
+src/helloworld1/test1.java:15:	UnusedImports: Avoid unused imports such as 'org.junit.jupiter.api.BeforeEach'
+src/helloworld1/test1.java:18:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/helloworld1/test1.java:18:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/helloworld1/test1.java:18:	ClassNamingConventions: The class name 'test1' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/helloworld1/test1.java:18:	ClassNamingConventions: The class name 'test1' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/helloworld1/test1.java:18:	CommentRequired: Header comments are required
+src/helloworld1/test1.java:18:	CommentRequired: Header comments are required
+src/helloworld1/test1.java:20:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/test1.java:20:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/test1.java:21:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the test method if you want a default access modifier
+src/helloworld1/test1.java:21:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the test method if you want a default access modifier
+src/helloworld1/test1.java:21:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'pathname' (lines '21'-'21').
+src/helloworld1/test1.java:21:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'pathname' (lines '21'-'21').
+src/helloworld1/test1.java:22:	LocalVariableCouldBeFinal: Local variable 'testword' could be declared final
+src/helloworld1/test1.java:22:	LocalVariableCouldBeFinal: Local variable 'testword' could be declared final
+src/helloworld1/test1.java:23:	LocalVariableCouldBeFinal: Local variable 'newframe' could be declared final
+src/helloworld1/test1.java:23:	LocalVariableCouldBeFinal: Local variable 'newframe' could be declared final
+src/helloworld1/test1.java:24:	LocalVariableCouldBeFinal: Local variable 'textArea' could be declared final
+src/helloworld1/test1.java:24:	LocalVariableCouldBeFinal: Local variable 'textArea' could be declared final
+src/helloworld1/test1.java:27:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/helloworld1/test1.java:27:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/helloworld1/test1.java:30:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'pathname' (lines '30'-'44').
+src/helloworld1/test1.java:30:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'pathname' (lines '30'-'44').
+src/helloworld1/test1.java:30:	LocalVariableCouldBeFinal: Local variable 'pathname' could be declared final
+src/helloworld1/test1.java:30:	LocalVariableCouldBeFinal: Local variable 'pathname' could be declared final
+src/helloworld1/test1.java:32:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/test1.java:32:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/test1.java:33:	ShortVariable: Avoid variables with short names like br
+src/helloworld1/test1.java:33:	ShortVariable: Avoid variables with short names like br
+src/helloworld1/test1.java:37:	AssignmentInOperand: Avoid assignments in operands
+src/helloworld1/test1.java:37:	AssignmentInOperand: Avoid assignments in operands
+src/helloworld1/test1.java:37:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '37'-'44').
+src/helloworld1/test1.java:37:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'line' (lines '37'-'44').
+src/helloworld1/test1.java:38:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/helloworld1/test1.java:38:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/helloworld1/test1.java:41:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/test1.java:41:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/helloworld1/test1.java:43:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/helloworld1/test1.java:43:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/helloworld1/test1.java:45:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/test1.java:45:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/test1.java:46:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testopen method if you want a default access modifier
+src/helloworld1/test1.java:46:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testopen method if you want a default access modifier
+src/helloworld1/test1.java:47:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/helloworld1/test1.java:47:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/helloworld1/test1.java:49:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/test1.java:49:	AvoidFileStream: Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/helloworld1/test1.java:49:	CloseResource: Ensure that resources like this FileWriter object are closed after use
+src/helloworld1/test1.java:49:	CloseResource: Ensure that resources like this FileWriter object are closed after use
+src/helloworld1/test1.java:49:	LocalVariableCouldBeFinal: Local variable 'out' could be declared final
+src/helloworld1/test1.java:49:	LocalVariableCouldBeFinal: Local variable 'out' could be declared final
+src/helloworld1/test1.java:50:	LocalVariableCouldBeFinal: Local variable 'data' could be declared final
+src/helloworld1/test1.java:50:	LocalVariableCouldBeFinal: Local variable 'data' could be declared final
+src/helloworld1/test1.java:54:	LocalVariableCouldBeFinal: Local variable 'newframe' could be declared final
+src/helloworld1/test1.java:54:	LocalVariableCouldBeFinal: Local variable 'newframe' could be declared final
+src/helloworld1/test1.java:55:	LocalVariableCouldBeFinal: Local variable 'textArea' could be declared final
+src/helloworld1/test1.java:55:	LocalVariableCouldBeFinal: Local variable 'textArea' could be declared final
+src/helloworld1/test1.java:58:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/helloworld1/test1.java:58:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/helloworld1/test1.java:61:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/test1.java:61:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/helloworld1/test1.java:62:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testSearch method if you want a default access modifier
+src/helloworld1/test1.java:62:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testSearch method if you want a default access modifier
+src/helloworld1/test1.java:63:	LocalVariableCouldBeFinal: Local variable 'newframe' could be declared final
+src/helloworld1/test1.java:63:	LocalVariableCouldBeFinal: Local variable 'newframe' could be declared final
+src/helloworld1/test1.java:64:	LocalVariableCouldBeFinal: Local variable 'textArea' could be declared final
+src/helloworld1/test1.java:64:	LocalVariableCouldBeFinal: Local variable 'textArea' could be declared final
+src/helloworld1/test1.java:68:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/helloworld1/test1.java:68:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/helloworld1/test1.java:68:	UseAssertSameInsteadOfAssertTrue: Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+src/helloworld1/test1.java:68:	UseAssertSameInsteadOfAssertTrue: Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+src/helloworld1/time_and_date.java:6:	ImportFromSamePackage: No need to import a type that lives in the same package
+src/helloworld1/time_and_date.java:6:	ImportFromSamePackage: No need to import a type that lives in the same package
+src/helloworld1/time_and_date.java:8:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/helloworld1/time_and_date.java:8:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/helloworld1/time_and_date.java:8:	ClassNamingConventions: The class name 'time_and_date' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/helloworld1/time_and_date.java:8:	ClassNamingConventions: The class name 'time_and_date' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/helloworld1/time_and_date.java:8:	CommentRequired: Header comments are required
+src/helloworld1/time_and_date.java:8:	CommentRequired: Header comments are required
+src/helloworld1/time_and_date.java:8:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/helloworld1/time_and_date.java:8:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/helloworld1/time_and_date.java:9:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/time_and_date.java:9:	CommentRequired: Public method and constructor comments are required
+src/helloworld1/time_and_date.java:9:	MissingOverride: The method 'run()' is missing an @Override annotation.
+src/helloworld1/time_and_date.java:9:	MissingOverride: The method 'run()' is missing an @Override annotation.
+src/helloworld1/time_and_date.java:11:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/helloworld1/time_and_date.java:11:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/helloworld1/time_and_date.java:11:	LocalVariableCouldBeFinal: Local variable 'time' could be declared final
+src/helloworld1/time_and_date.java:11:	LocalVariableCouldBeFinal: Local variable 'time' could be declared final
+src/helloworld1/time_and_date.java:12:	LocalVariableCouldBeFinal: Local variable 'hour' could be declared final
+src/helloworld1/time_and_date.java:12:	LocalVariableCouldBeFinal: Local variable 'hour' could be declared final
+src/helloworld1/time_and_date.java:13:	LocalVariableCouldBeFinal: Local variable 'minute' could be declared final
+src/helloworld1/time_and_date.java:13:	LocalVariableCouldBeFinal: Local variable 'minute' could be declared final
+src/helloworld1/time_and_date.java:14:	LocalVariableCouldBeFinal: Local variable 'second' could be declared final
+src/helloworld1/time_and_date.java:14:	LocalVariableCouldBeFinal: Local variable 'second' could be declared final
+src/helloworld1/time_and_date.java:15:	LawOfDemeter: Potential violation of Law of Demeter (static property access)
+src/helloworld1/time_and_date.java:15:	LawOfDemeter: Potential violation of Law of Demeter (static property access)
